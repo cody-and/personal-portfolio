@@ -1,21 +1,18 @@
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import React from 'react';
 
-
-
-export default function Project (){
-
-
-
-
+function Project({ svg, projectLink, svgLink, title }) {
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
-      <Card.Body>
-        <Card.Title>Project Title</Card.Title>
-        <Button variant="primary">Deployed Link</Button>
-        <Button variant="primary">Github Link</Button>
-      </Card.Body>
-    </Card>
-  )
+    <div className="project-card">
+      <a href={projectLink} target="_blank" rel="noopener noreferrer">
+        <h2>{title}</h2>
+      </a>
+      <div className="svg-container">
+        <a href={svgLink} target="_blank" rel="noopener noreferrer">
+          <img src={svg} alt="SVG" className="project-svg" />
+        </a>
+      </div>
+    </div>
+  );
 }
+
+export default Project;

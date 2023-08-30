@@ -12,6 +12,7 @@ import svgFile8 from '../assets/Tech-Stack-Logos/mysql.svg';
 import svgFile9 from '../assets/Tech-Stack-Logos/node-js.svg';
 import svgFile10 from '../assets/Tech-Stack-Logos/react.svg';
 import svgFile11 from '../assets/Tech-Stack-Logos/sequelize.svg';
+import svgFile12 from '../assets/Tech-Stack-Logos/typescript.svg'
 
 const svgFiles = [
   { svg: svgFile1, title: 'Bootstrap' },
@@ -25,6 +26,7 @@ const svgFiles = [
   { svg: svgFile9, title: 'Node.js' },
   { svg: svgFile10, title: 'React' },
   { svg: svgFile11, title: 'Sequelize' },
+  { svg: svgFile12, title: 'Typescript'}
 ];
 
 export default function TechSkills() {

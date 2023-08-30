@@ -1,11 +1,10 @@
 import React from "react";
-import Project from "../components/Project";
+import { ProjectTogether } from "../components";
 
 const Portfolio = () => {
   return (
     <div>
-      <h2>Portfolio</h2>
-      <Project /> 
+      <ProjectTogether />
     </div>
   );
 };
