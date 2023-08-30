@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import { Home, Portfolio, Resume, PageNotFound, Contact } from "./pages";
-import { About, Project, Footer } from "./components";
+import { Home, Portfolio, Resume, PageNotFound, Contact, Education, TechStack } from "./pages";
+import { About, Project, Footer, TechSkills, EducationComponent, } from "./components";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
@@ -21,6 +21,12 @@ function App() {
               <Nav.Link href="/">
                 <h3>About</h3>
               </Nav.Link>
+              <Nav.Link href="/education">
+                <h3>Education</h3>
+              </Nav.Link>
+              <Nav.Link href="/tech-stack">
+                <h3>Tech Stack</h3>
+              </Nav.Link>
               <Nav.Link href="/portfolio">
                 <h3>Portfolio</h3>
               </Nav.Link>
@@ -39,8 +45,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/tech-stack" element={<TechStack />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/education" element={<Education />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
