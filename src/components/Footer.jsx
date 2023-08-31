@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <footer className="bg-dark text-white text-center py-3">
       <Container>
-        <p>&copy; {new Date().getFullYear()} Cody Anderson. All rights reserved.</p>
+        <p className="secondary-text">&copy; {new Date().getFullYear()} Cody Anderson. All rights reserved.</p>
         <div className="footer-links d-flex justify-content-center">
           <a href="https://github.com/cody-and" target="_blank" className="mx-3">
             <img src={gitHubLogo} alt="GitHub" className="footer-icon" />
