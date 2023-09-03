@@ -9,6 +9,7 @@ const projectCards = [
   { svg: svgFile1, projectLink: 'https://cody-and.github.io/5-Day-Weather-Forecast/', svgLink: 'https://github.com/cody-and/5-Day-Weather-Forecast', title: ' 5 Day Weather Forecast' },
   { svg: svgFile1, projectLink: 'https://streamable.com/wfxrbn', svgLink: 'https://github.com/cody-and/svg-logo-maker', title: 'SVG Logo Maker' },
   { svg: svgFile1, projectLink: 'https://mocha-matcha.github.io/group-project1/', svgLink: 'https://github.com/mocha-matcha/group-project1', title: 'DeezerDen' },
+  { svg: svgFile1, projectLink: 'placeholder.com', svgLink: 'https://github.com/cody-and/mongo-social-network-api', title: 'Mongo Social Network API' },
 ];
 
 export default function ProjectTogether() {

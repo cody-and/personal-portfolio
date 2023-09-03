@@ -17,7 +17,7 @@ export default function Footer() {
           <a href="https://www.linkedin.com/in/cody-anderson-960782227/" target="_blank" className="mx-3">
             <img src={linkedInLogo} alt="LinkedIn" className="footer-icon" />
           </a>
-          <a href="https://stackoverflow.com/users/1234567" target="_blank" className="mx-3">
+          <a href="https://stackoverflow.com/users/22494174/cody-and" target="_blank" className="mx-3">
             <img src={stackOverflowLogo} alt="Stack Overflow" className="footer-icon" />
           </a>
         </div>
