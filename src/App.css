@@ -15,27 +15,44 @@ body {
   flex: 1;
 }
 
-footer {
-  margin-top: auto;
+.footer {
+  background-color: #212529;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer p {
+  margin-bottom: 10px;
 }
 
 .footer-links {
   display: flex;
   justify-content: center;
-  margin-top: 20px; 
-  padding: 15px 0; 
+  align-items: center;
+  margin-top: 10px;
 }
 
 .footer-links a {
-  margin-right: 20px; 
-  text-decoration: none; 
-  color: white; 
-  font-weight: 500; 
-  transition: color 0.3s ease; 
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
 }
 
 .footer-links a:hover {
-  color: #ff8800; 
+  color: #5ab9ea;
+}
+
+.footer-icon {
+  width: 36px;
+  height: 36px;
+  transition: transform 0.4s, filter 0.9s;
+  margin: 0 5px;
+}
+
+.footer-icon:hover {
+  transform: scale(1.2);
+  filter: brightness(1.2) invert(1);
 }
 
 .form-container {

@@ -5,6 +5,7 @@ import { Footer } from "./components";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Tab, Nav } from "react-bootstrap";
 import Navbar from "react-bootstrap/Navbar";
+import HomeText from "./components/HomeText";
 import "./App.css";
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
       <header>
         <Navbar bg="dark" variant="dark">
           <Navbar.Brand>
-            <h1 className="main-text">Cody Anderson</h1>
+            <h1 className="main-text"><HomeText /></h1>
           </Navbar.Brand>
         </Navbar>
       </header>
@@ -47,11 +48,11 @@ function App() {
                     Resume
                   </Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
+                {/* <Nav.Item>
                   <Nav.Link as={Link} to="/contact" eventKey="contact">
                     Contact
                   </Nav.Link>
-                </Nav.Item>
+                </Nav.Item> */}
               </Nav>
             </div>
             <Routes>
