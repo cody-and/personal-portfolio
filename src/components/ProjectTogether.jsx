@@ -4,12 +4,11 @@ import svgFile1 from '../assets/Footer-Logos/github.svg';
 import '../App.css';
 
 const projectCards = [
-  { svg: svgFile1, projectLink: 'https://cody-and.github.io/password-generator-03/', svgLink: 'https://github.com/cody-and/password-generator-03', title: ' Random Password Generator' },
+  { svg: svgFile1, projectLink: 'https://foot-book-85585a1d753e.herokuapp.com/', svgLink: 'https://github.com/cody-and/password-generator-03', title: 'College Football App (Group Project)' },
   { svg: svgFile1, projectLink: 'https://streamable.com/bfm1k7', svgLink: 'https://github.com/cody-and/ORM-E-Commerce-Back-End', title: 'ORM E-Commerce Back End' },
-  { svg: svgFile1, projectLink: 'https://cody-and.github.io/5-Day-Weather-Forecast/', svgLink: 'https://github.com/cody-and/5-Day-Weather-Forecast', title: ' 5 Day Weather Forecast' },
-  { svg: svgFile1, projectLink: 'https://streamable.com/wfxrbn', svgLink: 'https://github.com/cody-and/svg-logo-maker', title: 'SVG Logo Maker' },
-  { svg: svgFile1, projectLink: 'https://mocha-matcha.github.io/group-project1/', svgLink: 'https://github.com/mocha-matcha/group-project1', title: 'DeezerDen' },
-  { svg: svgFile1, projectLink: 'placeholder.com', svgLink: 'https://github.com/cody-and/mongo-social-network-api', title: 'Mongo Social Network API' },
+  // { svg: svgFile1, projectLink: 'https://cody-and.github.io/5-Day-Weather-Forecast/', svgLink: 'https://github.com/cody-and/5-Day-Weather-Forecast', title: ' 5 Day Weather Forecast' },
+  // { svg: svgFile1, projectLink: 'https://streamable.com/wfxrbn', svgLink: 'https://github.com/cody-and/svg-logo-maker', title: 'SVG Logo Maker' },
+  { svg: svgFile1, projectLink: 'https://mocha-matcha.github.io/group-project1/', svgLink: 'https://github.com/mocha-matcha/group-project1', title: 'DeezerDen (Group Project)' },
 ];
 
 export default function ProjectTogether() {
